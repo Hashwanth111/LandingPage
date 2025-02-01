@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 4</title>
+    <link rel="stylesheet" href="page4.css">
+    <script src="https://kit.fontawesome.com/566248977b.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="parentDiv">
+        <nav class="navigation">
+            <h1 class="head1"><span style="color: black;">Tasks</span> <span style="color: #00A5EC;">List</span></h1>
+        </nav>
+    <div class="buttonparent">
+        <!-- creating buttons div parent-->
+         <div class="button">
+        <!-- back button -->
+            <a class="back"  href="">
+                <div class="logo">
+                    <i class="fa-solid fa-circle-arrow-left" style="color: #424242; font-size: 35px;"></i>
+                </div>
+                <div class="">
+                    Back
+                </div>
+            </a>
+            <!-- add new task button -->
+            <a class="addnewtask" href="">
+                <div class="logo">
+                    <i class="fa-solid fa-circle-plus" style="color: #74C0FC;"></i>
+                </div>
+                <div>
+                    Add New Items
+                </div>
+            </a>
+        </div>
+    </div>
+            <div class="container">
+                <div class="box">
+                    <nav class="triptoparisnav">
+                        <p class="triptoparis">Trip to paris</p><hr>
+                    </nav>
+                    <div class="check">
+                        <label for="Visitchurch"></label>
+                            <input type="checkbox" name="Visitchurch" id="Visitchurch" class="top" checked disabled> <span style="color: #C2C2C2;" ><strike>Visit church</strike></span><br><br>
+                        <label for="shopping"></label>
+                            <input type="checkbox" name="shopping" id="shopping" class="bottom"><span class="text"> Shopping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- overlay class -->
+         
+        <div class="overlay">
+
+        </div>
+
+
+<!-- popup code starts from here -->
+<div class="paddnewpop">
+    <nav class="pnav">
+        <div class="pcombo">
+            <div class="ptextspace">
+            <div class="ptext">
+                Add New Task
+            </div>
+            </div>
+            <div class="pcrossspace">
+            <div class="pcross">
+                <a href="page3.html"><i class="fa-duotone fa-solid fa-xmark fa-xl"></i></a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <hr style="padding: 0px;margin: 0px; border: 1px solid #EDEDED;">
+    <div class="pcontent">
+        <input type="text" class="ptextfield" placeholder="Visit Famous Places" >
+    </div>
+    <div class="pbuttonspace">
+        <div class="pbutton">
+             <button class="pbtn">+ Add Item</button>
+         </div>
+    </div>
+</div>
+</body>
+</html>

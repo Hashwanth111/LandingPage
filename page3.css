@@ -1,0 +1,114 @@
+*{
+    font-family: "Inter Tight", serif;
+}
+
+body{
+    /* background-color:#F7F7F7 ; */
+    margin: 0;
+    padding: 0;
+    /* width: 1366px; */
+    height: 1368px;
+}
+.navigation{
+    height: 94px;
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 110px;
+    /* border: 2px solid black; */
+}
+.head1{
+    font-size: 40px;
+    margin-left: 137px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.triptoparisnav{
+    height: 84px;
+}
+.triptoparis{
+    color: #00A5EC;
+    font-size: 24px;
+    margin-left: 182px;
+}
+.buttonparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1366px;
+    background-color:#F7F7F7 ;
+}
+.button{
+    display: flex;
+    width: 500px;
+    height: 137px;
+    /* gap between two buttons */
+    gap: 194px;
+    background-color:#F7F7F7 ;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 50px;
+}
+
+.back{
+    display: flex;
+    text-decoration: none;
+    gap: 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    border: none;
+    background-color:#F7F7F7 ;
+    color: #424242;
+    height: 35px;
+    width: 90px;
+    /* border: 2px solid black; */
+}
+.addnewtask
+{ 
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:#F7F7F7 ;
+    text-decoration: none;
+    color: #424242;
+    height: 50px;
+    width: 215px;
+    /* border: 2px solid black; */
+    
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 675px;
+    background-color: #F7F7F7;
+    width: 1366px;
+}
+.box{
+    width: 500px;
+    height: 338px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 230px;
+}
+.check
+{
+    font-size: 20px;
+    width: 160px;
+    height: 85px;
+    margin-top: 34px;
+    margin-left: 36px;
+    /* border: 2px solid black; */
+}
+.box:hover{
+    box-shadow: 1px 1px 20px grey ;
+}
